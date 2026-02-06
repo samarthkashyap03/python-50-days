@@ -106,6 +106,11 @@ This file records what I worked on and learned while building Python projects fr
 
 ---
 
+## Day 46-50: Selenium and Browser Automation
+- Learnt about selenium tool and techniques
+- Automated login, booking on websites
+- Tried to auto-test my own website effortless.com
+
 ## Key Takeaways So Far
 - Improved confidence in Python by building many small projects
 - Learned how to structure code as projects grow
