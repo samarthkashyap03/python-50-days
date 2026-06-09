@@ -8,27 +8,6 @@ The repository includes the first 50 days of the course and covers topics such a
 
 I chose to keep the repository focused on the Python projects that I found most valuable. Some later course content shifted toward topics outside the scope of this repository or relied on tools and APIs that have changed significantly since the course was created.
 
-## Topics Covered
-- Python fundamentals and syntax
-- Variables, data types, and control flow
-- Functions and modular programming
-- Object-Oriented Programming (OOP)
-- Error and exception handling
-- File handling (CSV, TXT, JSON)
-- List and dictionary comprehensions
-- Working with APIs and HTTP requests
-- Environment variables and configuration management
-- Data processing and manipulation
-- Automation and scripting
-- GUI development with Tkinter
-- Web scraping with BeautifulSoup
-- Email automation
-- Working with dates and time
-- Basic database concepts
-- Debugging and testing practices
-- Problem-solving and algorithmic thinking
-## Repository Structure
-
 The repository is organized by day:
 
 * Each `day-XX` folder contains the work completed for that day.
