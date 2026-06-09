@@ -1,79 +1,72 @@
-# Python 100 Days – Learning Journey
+# Python 50 Days
 
-This repository documents my **Python learning journey**, organized in a day-by-day format inspired by the *100 Days of Python* course.
+This repository contains projects completed while I was working through Dr. Angela Yu's *100 Days of Code: Python Bootcamp* course.
 
-It contains small projects, exercises, and mini-applications built to strengthen Python fundamentals, problem-solving skills, and real-world usage such as APIs, file handling, GUIs, and automation.
+Most of these projects were originally built around two years ago as part of my Python learning journey and were uploaded to GitHub later to preserve and document that work.
 
-The purpose of this repository is **learning through consistent building**, not showcasing fully polished production applications.
+The repository includes the first 50 days of the course and covers topics such as Python fundamentals, object-oriented programming, APIs, automation, file handling, GUI development, and problem-solving.
 
----
+I chose to keep the repository focused on the Python projects that I found most valuable. Some later course content shifted toward topics outside the scope of this repository or relied on tools and APIs that have changed significantly since the course was created.
 
-## 📁 Repository Structure
+## Topics Covered
+- Python fundamentals and syntax
+- Variables, data types, and control flow
+- Functions and modular programming
+- Object-Oriented Programming (OOP)
+- Error and exception handling
+- File handling (CSV, TXT, JSON)
+- List and dictionary comprehensions
+- Working with APIs and HTTP requests
+- Environment variables and configuration management
+- Data processing and manipulation
+- Automation and scripting
+- GUI development with Tkinter
+- Web scraping with BeautifulSoup
+- Email automation
+- Working with dates and time
+- Basic database concepts
+- Debugging and testing practices
+- Problem-solving and algorithmic thinking
+## Repository Structure
 
-The repository is organized chronologically by days.
+The repository is organized by day:
 
-- Each folder named `day-XX` represents work done on that day
-- Inside each day folder, projects are kept in their own subfolders
-- Some days contain multiple projects, while others contain only one
-- GitHub may visually collapse folders such as `day-01/project-name`; this is a UI behavior and does not affect the actual structure
+* Each `day-XX` folder contains the work completed for that day.
+* Some days contain multiple projects or exercises.
+* Projects are kept in separate folders so they can be explored and run independently.
 
----
+Example:
 
-## 🧠 What This Repository Covers
+```text
+day-01/
+├── project-a
 
-Across different days, projects explore topics including:
+day-02/
+├── project-a
+├── project-b
 
-- Python basics and control flow  
-- Functions and modular programming  
-- File handling and JSON  
-- Error handling  
-- Object-Oriented Programming (OOP)  
-- GUI applications using Tkinter  
-- API usage and automation  
-- Environment variables and secrets management  
-- Small utilities and practice scripts  
+day-03/
+├── project-a
+```
 
-Not all projects are intended to be standalone applications. Many are learning-focused exercises by design.
-
----
-
-## 🔐 Environment Variables and Security
-
-Some projects require API keys or credentials.
-
-- Real secrets are **never committed** to the repository
-- Projects that require configuration include a `.env.example` file
-
-To run such projects locally:
-1. Copy `.env.example` to a new file named `.env`
-2. Add your own keys or credentials
-
-Projects will fail clearly if required environment variables are missing. This follows standard security and configuration practices.
-
----
-
-## 🚀 Running a Project
+## Running Projects
 
 Each project is independent.
 
-General steps to run a project:
+To run a project:
 
-1. Navigate to the project directory inside the appropriate day folder
-2. Install dependencies if a `requirements.txt` file is present
-3. Run the main Python file
+1. Navigate to the project folder.
+2. Install dependencies if a `requirements.txt` file is present.
+3. Run the main Python file.
 
-Some smaller scripts do not require any external dependencies.
+Some projects require API keys or environment variables. In those cases, create a `.env` file and provide your own credentials.
 
----
+## Notes
 
-## 📌 Notes
+* This is a learning repository rather than a production-ready portfolio project.
+* Code quality and project complexity improve throughout the repository as new concepts are introduced.
+* Some projects may later be expanded into standalone repositories.
 
-- This is a **learning repository**, not a production portfolio
-- Code quality and structure improve progressively over time
-- Selected projects may later be refactored into standalone portfolio repositories
+## About Me
 
----
-
-## 👤 About Me
-
-I am a Master’s student in Computer Science at RPTU Kaiserslautern, Germany, with strong proficiency in Python and a problem-solving mindset. I enjoy building practical projects to deepen my understanding of software engineering concepts, APIs, automation, and application development, while continuously improving code quality and structure.
+Master's student in Computer Science at RPTU Kaiserslautern, Germany, interested in software engineering, backend development, AI applications, and automation. I enjoy learning through building projects and solving practical problems.
